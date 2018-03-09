@@ -17,4 +17,4 @@ app.use('/api/v1', router);
 app.listen(process.env.PORT || 3000, function(){
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
-console.log(`App Runs on ${port}`);
+//console.log(`App Runs on ${process.env.PORT}`);
